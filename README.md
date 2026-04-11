@@ -52,7 +52,11 @@ StayEase/
 7. Views dynamic pricing and submits details  
 
 ---
+## 🌐 Live Demo
 
+👉 [https://katherin915.github.io/StayEase/ ]
+
+---
 ## 💻 GitHub Repository
 
 👉 [https://github.com/katherin915/miniproject]
