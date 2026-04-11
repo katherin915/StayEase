@@ -53,15 +53,9 @@ StayEase/
 
 ---
 
-## 🌐 Live Demo
-
-👉 [Add your deployed link here]
-
----
-
 ## 💻 GitHub Repository
 
-👉 []
+👉 [https://github.com/katherin915/miniproject]
 
 ---
 
