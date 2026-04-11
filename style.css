@@ -894,7 +894,7 @@ button:hover #submit{ background-color: #d7e722;}
   justify-content: space-around;
 }
 
-#img_detail{
+.hotel__card{
   margin-top: 50px;
   display: inline-block;
   height: 300px;
