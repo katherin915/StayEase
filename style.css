@@ -313,11 +313,15 @@ nav {
 }
 
 .hotel__grid {
+  .hotel__grid {
   max-width: 1500px;
   margin-inline: auto;
   margin-top: 4rem;
-  display: grid;
-  gap: 0 1rem;
+
+  display: flex;              /* 👈 change from grid to flex */
+  gap: 2rem;                  /* spacing between cards */
+  justify-content: center;    /* center align */
+  flex-wrap: wrap;            /* allows wrapping on small screens */
 }
 
 .hotel__card img {
