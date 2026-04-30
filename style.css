@@ -320,15 +320,15 @@ nav {
   gap: 0 1rem;
 }
 .hotel__card {
-  display: flex;        /* 👈 THIS is the main fix */
+  display: flex  !important;        /* 👈 THIS is the main fix */
   align-items: center;
   gap: 1rem;
 }
 
 .hotel__card img {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-  width: 150px;
-  height: 120px;
+  width: 150px  !important;
+  height: 120px  !important;
   object-fit: cover;
 }
 
