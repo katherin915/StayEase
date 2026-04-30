@@ -325,8 +325,8 @@ nav {
 }
 
 .hotel__card img {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-  width: 200px;
+  /*box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);*/
+  width: 100%;
   height: 200px;
   object-fit: cover;
 }
