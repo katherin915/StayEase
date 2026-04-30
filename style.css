@@ -319,11 +319,16 @@ nav {
   display: grid;
   gap: 0 1rem;
 }
+.hotel__card {
+  display: flex;        /* 👈 THIS is the main fix */
+  align-items: center;
+  gap: 1rem;
+}
 
 .hotel__card img {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 120px;
   object-fit: cover;
 }
 
@@ -335,7 +340,7 @@ nav {
   justify-content: space-between;
   gap: 1rem;
   background-color: var(--white);
-  transform: translateY(-50%);
+  /*transform: translateY(-50%);*/
   border-radius: 5px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
@@ -361,6 +366,7 @@ nav {
 .hotel_card_details h3 span {
   font-size: 0.8rem;
 }
+
 
 .intro {
   position: relative;
